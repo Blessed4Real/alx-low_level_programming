@@ -2,16 +2,18 @@
 /**
  * main - print Letters except q and e
  *
+ * code: by Blesed4Real
+ *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i = 98;
+	int i = 95;
 
-	while (i < 100)
+	while (i < 101)
 	{
-		if (i != 102 && i != 163)
+		if (i != 102 && i != 123)
 		{
 			putchar(i);
 		}
