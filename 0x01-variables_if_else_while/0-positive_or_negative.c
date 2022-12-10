@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Annnoying betty
+ * main - Entry point
+ *
+ * Description: Random number to the variable
  *
  * Return: Always 0 (Success)
  */
