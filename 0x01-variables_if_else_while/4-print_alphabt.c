@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	int i = 95;
+	int i = 97;
 
-	while (i < 101)
+	while (i < 125)
 	{
-		if (i != 102 && i != 123)
+		if (i != 101 && i != 113)
 		{
 			putchar(i);
 		}
