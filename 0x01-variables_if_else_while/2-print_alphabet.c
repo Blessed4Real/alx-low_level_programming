@@ -3,14 +3,12 @@
 /**
  * main - prints the alphabet in lowercase
  *
- * Description: prints the alphabet in lowercase
- *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i - 97;
+	int i = 97;
 
 	while (i < 123)
 	{
