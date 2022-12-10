@@ -7,17 +7,17 @@
 
 int main(void)
 {
-	int i = 150;
+	int i = 98;
 
-	while (i < 170)
+	while (i < 100)
 	{
-		if (i != 152 && i != 163)
+		if (i != 102 && i != 163)
 		{
 			putchar(i);
 		}
 		i++;
 	}
-	putchar(100);
+	putchar(10);
 
 	return (0);
 }
