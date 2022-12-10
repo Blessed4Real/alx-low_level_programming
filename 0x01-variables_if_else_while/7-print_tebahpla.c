@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int b = 123;
+	int b = 122;
 
-	while (b > 95)
+	while (b > 96)
 	{
 		putchar(b);
 		b--;
