@@ -3,8 +3,7 @@
 /**
  * main - last combination for now
  *
- * Return: Always 0 (Success)
- *
+ * Return: Always 0 (Success)ss)
  */
 
 int main(void)
@@ -36,13 +35,11 @@ int main(void)
 					}
 					d++;
 				}
-
+				d = 48;
 				c++;
 			}
-
 			b++;
 		}
-
 		a++;
 	}
 	putchar(10);
