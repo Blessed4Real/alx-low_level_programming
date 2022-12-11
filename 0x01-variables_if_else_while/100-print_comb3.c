@@ -2,29 +2,40 @@
 
 /**
  * main - print all combination of two digits
+ 
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int b;
+	int a, b;
 
+	a = 48;
 	b = 48;
 
-	while (b < 58)
+	while (a < 58)
 	{
-		putchar(b);
-		if (b != 57)
+		b = a + 1;
+		while (b < 58)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(a);
+			putchar(b);
+
+			if (a < 56 || b < 57)
+			{
+
+				putchar(44);
+				putchar(32);
+			}
+			b++;
 		}
-		b++;
+
+		a++;
+
 	}
 
 	putchar(10);
 
 	return (0);
-
 }

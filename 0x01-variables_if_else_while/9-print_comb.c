@@ -10,7 +10,7 @@ int main(void)
 {
 	int b;
 
-	b - 48;
+	b = 48;
 
 	while (b < 58)
 	{
