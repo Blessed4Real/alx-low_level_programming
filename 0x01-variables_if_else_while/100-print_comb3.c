@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all combination of two digits
+ * main - all two digits combination
  *
  * Return: Always 0 (Success)
  */
@@ -9,7 +9,7 @@
 int main(void)
 {
 	int a, b;
-		
+
 	a = 48;
 	b = 48;
 
@@ -23,6 +23,7 @@ int main(void)
 
 			if (a < 56 || b < 57)
 			{
+
 				putchar(44);
 				putchar(32);
 			}
@@ -36,4 +37,5 @@ int main(void)
 	putchar(10);
 
 	return (0);
+
 }
