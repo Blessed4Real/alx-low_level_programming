@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - last combination for now
+ * main - last combination so you see
  *
- * Return: Always 0 (Success)ss)
+ * code: by Blessing
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,11 +16,11 @@ int main(void)
 	a = 48;
 	while (a < 58)
 	{
-		b = 48;
-		while (b < 48)
+		b = 58;
+		while (b < 58)
 		{
 			d = b + 1;
-			c = a;
+			c = i;
 			while (c < 58)
 			{
 				while (d < 58)
@@ -26,8 +28,8 @@ int main(void)
 					putchar(a);
 					putchar(b);
 					putchar(32);
-					putchar(c);
-					putchar(d);
+					putchar(k);
+					putchar(m);
 					if (a < 57 || b < 56 || c < 57 || d < 57)
 					{
 						putchar(44);
