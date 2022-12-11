@@ -9,38 +9,38 @@
 int main(void)
 {
 
-	int a, b, c, d;
+	int i, j, k, m;
 
-	a = 48;
-	while (a < 58)
+	i = 48;
+	while (i < 58)
 	{
-		b = 58;
-		while (b < 58)
+		j = 58;
+		while (j < 58)
 		{
-			d = b + 1;
-			c = a;
-			while (c < 58)
+			m = j + 1;
+			k = i;
+			while (k < 58)
 			{
-				while (d < 58)
+				while (m < 58)
 				{
-					putchar(a);
-					putchar(b);
+					putchar(i);
+					putchar(j);
 					putchar(32);
-					putchar(c);
-					putchar(d);
-					if (a < 57 || b < 56 || c < 57 || d < 57)
+					putchar(k);
+					putchar(m);
+					if (i < 57 || j < 56 || k < 57 || m < 57)
 					{
 						putchar(44);
 						putchar(32);
 					}
-					d++;
+					m++;
 				}
-				d = 48;
-				c++;
+				m = 48;
+				k++;
 			}
-			b++;
+			j++;
 		}
-		a++;
+		i++;
 	}
 	putchar(10);
 	return (0);
