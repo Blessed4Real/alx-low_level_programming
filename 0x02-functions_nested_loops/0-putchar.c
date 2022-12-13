@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry Block
- * Description: prints _putchar followed by a new line
+ * Description: print _putchar followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 
 	int b = 0;
 
-	for (b < 8)
+	for (b < 8;)
 	{
 		_putchar (c[b]);
 		b++;
