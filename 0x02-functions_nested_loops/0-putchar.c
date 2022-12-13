@@ -10,7 +10,7 @@ int main(void)
 
 	int b = 0;
 
-	for (b < 8;)
+	while (b < 8)
 	{
 		_putchar (c[b]);
 		b++;
