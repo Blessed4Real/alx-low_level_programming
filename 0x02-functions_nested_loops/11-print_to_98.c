@@ -16,6 +16,6 @@ void print_to_98(int p)
 	}
 	else
 		for (p = p; p > 98; p--)
-			printf("%d, ", n);
-	printf("98\n");
+			printf("%d, ", p);
+	printf("98\p");
 }
