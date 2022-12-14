@@ -3,19 +3,19 @@
 
 /**
  * print_to_98 - print all natural numbers from n to 98
- * @p: entry point
+ * @n: entry point
  * Return: returns nothing
  */
 
-void print_to_98(int p)
+void print_to_98(int n)
 {
-	if (p <= 98)
+	if (n <= 98)
 	{
-		for (p = p; p <= 97; p++)
-			printf("%d, ", p);
+		for (n = n; n <= 97; n++)
+			printf("%d, ", n);
 	}
 	else
-		for (p = p; p > 98; p--)
-			printf("%d, ", p);
-	printf("98\p");
+		for (n = n; n > 98; n--)
+			printf("%d, ", n);
+	printf("98\n");
 }
