@@ -7,25 +7,25 @@
  */
 int main(void)
 {
-	long int a, b, c, next;
+	int a = 0;
+	long b = 1, c = 2;
 
-	a = 1;
-	c = 2;
-
-	for (a = 1; a <= 50; ++a)
+	while (a < 50)
 	{
-		if (b != 20365011074)
-		{
-			printf("%ld, ", b);
-		}
+		if (a == 0)
+			printf("%ld", b);
+		else if (a == 1)
+			printf(", %ld", c);
 		else
 		{
-			printf("%ld\n", b);
+			c += b;
+			b = c - b;
+			printf(", %ld", c);
 		}
-		next = b + c;
-		b = c;
-		c = next;
+
+		++a;
 	}
 
+	printf("\n");
 	return (0);
 }
