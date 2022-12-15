@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define LARGEST 1000000000
-
 /**
- * main - find and print the first 98 Fibonacci numbers
+ * main - the main block
+ * Description: find and print the first 98 Fibonacci numbers
  * starting with 1 and 2, then a new line
  * Return: Always 0 (Success)
  */
