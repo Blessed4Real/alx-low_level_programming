@@ -10,22 +10,23 @@ int main(void)
 	int a;
 	unsigned long int b, c, next, sum;
 
-	a = 1;
+	a = 0;
+	b = 1;
 	c = 2;
-	sum = 0;
+	sum = c;
 
-	for (a = 1; a <= 33; ++a)
+	while (c + b < 4000000)
 	{
-		if (b < 4000000 && (b % 2) == 0)
-		{
-			sum = sum + b;
-		}
-		next = b + c;
-		b = c;
-		c = next;
+		c += b;
+
+		if (c % 2 == 0)
+			sum += c;
+
+		b = c - b;
+
+		++a;
 	}
 
-	printf("%lu\n", sum);
-
+	printf("%ld\n", sum);
 	return (0);
 }
