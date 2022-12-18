@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * pirnt_diagonal - Draws a diagonal line using the \ charcter
- *
- * @n: the number of \ characters to be printed
+ * print_diagonal - draws a diagonal line using \ character
+ * @n: number of times to draw out character
  *
  * Return: Always 0
  */
@@ -14,17 +13,19 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		for (line = 0; line < n; line++)
+		while (line < n)
 		{
 			for (space = 0; space < line; space++)
+			{
 				_putchar(' ');
+			}
 			_putchar('\\');
-
-			if (line == n - 1)
-				continue;
-
 			_putchar('\n');
+			line++;
 		}
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
