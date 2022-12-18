@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line using \ character
- * @n: number of times to draw out character
- *
+ * print_diagonal - draw a diagonal line using the \ character
+ * @n: number of \ to be printed
  * Return: Always 0
  */
 
 void print_diagonal(int n)
 {
-	int line, space;
+	int line = 0;
+	int space;
 
 	if (n > 0)
 	{
