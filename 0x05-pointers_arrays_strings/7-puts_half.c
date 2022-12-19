@@ -5,7 +5,6 @@
  * @str: input string
  * Return: Always 0
  */
-
 void puts_half(char *str)
 {
 	int len = 0, n;
@@ -15,8 +14,7 @@ void puts_half(char *str)
 		if (str[len] != '\n')
 		{
 			len++;
-		}
-		else
+		} else
 		{
 			break;
 		}
