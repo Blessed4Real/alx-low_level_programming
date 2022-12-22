@@ -6,7 +6,7 @@
  * @dest: string destination
  * @src: string source
  * @n: size or amount of bytes used from the source
- * Return: Always 0 when copied
+ * Return: to string destination
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -22,5 +22,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-	return (0);
+	return (dest);
 }
